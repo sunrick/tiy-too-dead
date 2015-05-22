@@ -1,31 +1,21 @@
 # TooDead
 
-TODO: Write a gem description
+A simple command-line Todo management app.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'too_dead'
-```
+Clone this repo ...
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+To get the dependencies and run:
 
-    $ gem install too_dead
+    $ rake db:migrate
+
+To run any migrations. Ta da!
 
 ## Usage
 
 TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/too_dead/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
