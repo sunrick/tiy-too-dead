@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+
 require "too_dead/version"
 require 'too_dead/init_db'
 require 'too_dead/user'
