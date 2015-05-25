@@ -1,7 +1,7 @@
 module TooDead
   class TodoList < ActiveRecord::Base
     belongs_to :user
-    has_many :todo_items
+    has_many :todo_items, dependent: :destroy
 
   end
 end
